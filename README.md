@@ -1,3 +1,3 @@
-## AWS Fargate Web App Tutorial
+## Simple Flask Web App
 
-This is the source code for the AWS Fargate tutorial on https://www.learnaws.org/.
+This is the source code for the tutorial on https://www.learnaws.org/.
