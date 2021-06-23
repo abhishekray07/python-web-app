@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-web
+  namespace: python-web
+  labels:
+    app: python-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-web
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: python-web
+    spec:
+      containers:
+      - name: python-web
+        image: REPLACE_ME
+        ports:
+          - containerPort: 8080
+        resources: {}
